@@ -22,6 +22,7 @@ function App() {
     let data = null;
     const getWeatherData = async () => {
       setLoading(true);
+      setError(false);
       setWeatherData(null);
       query ? data = await formatter({ ...query, units }) : data = null;
       // console.log(data);
@@ -31,7 +32,6 @@ function App() {
       }
       else
       {
-        setError(false);
         setWeatherData(data);
       }
       setLoading(false);
