@@ -49,7 +49,7 @@ const InputDetails = ({ setQuery, setUnits, units, setLoading }) => {
 
 
   return (
-    <div className="flex flex-wrap gap-3 md:flex-nowrap justify-between items-center w-full">
+    <div className="flex flex-wrap gap-3 md:flex-nowrap justify-center md:justify-between items-center w-full">
       <SearchCities setQuery={setQuery} setLoading={setLoading} setZip={setZip}/>
       <Text>OR</Text>
       <Input onKeyUp={handleKey} onChange={e => setZip(e.target.value)} border="1px" borderColor="gray.200" bg='white' value={zip} color='black' placeholder='Enter (zip code,country code)' />

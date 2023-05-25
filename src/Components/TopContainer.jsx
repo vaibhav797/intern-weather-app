@@ -15,7 +15,7 @@ const TopContainer = () => {
       </a>
       <Text className='flex items-center md:mr-[10em]'>{`${time}`}</Text>
       <div className='flex items-center'>
-        <a href="https://github.com/vaibhav797/intern-weather-app" target='_blank' rel='noreferrer'>
+        <a href="https://github.com/vaibhav797/weather-app" target='_blank' rel='noreferrer'>
           <BsGithub size={30} cursor={"pointer"} />
         </a>
       </div>
