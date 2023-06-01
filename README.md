@@ -10,7 +10,7 @@ A Web Application which shows the current day's temperature and other details li
 
 ![Screenshot](./src/assets/Screenshot.png)
 
-Live Website: [Weather App](https://teal-salamander-2fc63d.netlify.app/)
+Live Website: [Weather App](https://weather-app-react-vaibhav.netlify.app/)
 ## Getting Started
 - Make you have `Node.js` and `npm` installed in your system.
 - You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
